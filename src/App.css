@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(58, 51, 51);
+  color: rgb(225, 211, 211);
+}
+
+.contenedor-principal {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  h2 {
+    color: rgb(183, 175, 175);
+    font-size: 2em;
+  }
+}
+
+.container-arrays {
+  width: 90%;
+  min-height: 100px;
+  margin: 10px auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+}
+.container-eventos {
+  width: 90%;
+  min-height: 100px;
+  margin: 10px auto;
+  text-align: center;
+}
+.container-useState {
+  width: 90%;
+  min-height: 100px;
+  margin: 10px auto;
+  text-align: center;
+  padding: 10px;
+}
+.container-contador {
+  width: 90%;
+  min-height: 100px;
+  margin: 10px auto;
+  text-align: center;
+  padding: 10px;
+}
+.container-onchange {
+  width: 90%;
+  min-height: 100px;
+  margin: 10px auto;
+  text-align: center;
+  padding: 10px;
+}
+.container-color {
+  width: 90%;
+  min-height: 100px;
+  margin: 10px auto;
+  text-align: center;
+  padding: 10px;
+}
+.container-todolist {
+  width: 90%;
+  min-height: 100vh;
+  margin: 10px auto;
+  text-align: center;
+  padding: 10px;
+  background-color: hsl(0, 0%, 10%);
+  border-radius: 5px;
+}
+.container-useEffect {
+  width: 90%;
+  min-height: 300px;
+  margin: 10px auto;
+  text-align: center;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+.container__digitalClock {
+  width: 90%;
+  min-height: 100vh;
+  margin: 10px auto;
+  text-align: center;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 5px;
+  background-image: url("../public/img/salto-nervion.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.container__useContext {
+  width: 90%;
+  min-height: 300px;
+  margin: 10px auto;
+  text-align: center;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+.box {
+  border: 2px solid red;
+  padding: 25px;
+  margin-top: 10px;
+}
+.container__useRef {
+  width: 90%;
+  min-height: 300px;
+  margin: 10px auto;
+  text-align: center;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+@media screen and (max-width: 400px) {
+  .box h2 {
+    font-size: 1.15rem;
+  }
+  .box h3 {
+    font-size: 0.8rem;
+  }
+}

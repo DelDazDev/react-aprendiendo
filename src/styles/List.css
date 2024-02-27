@@ -1,0 +1,31 @@
+.container-list {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 20px 0 20px 0;
+}
+
+.list-category {
+  width: 200px;
+  font-size: 2em;
+  font-weight: bold;
+  color: hsl(0, 0%, 20%);
+  margin-bottom: 10px;
+  text-align: center;
+  border: 3px solid;
+  border-radius: 5px;
+  background-color: hsl(185, 100%, 50%);
+}
+
+.list-items li {
+  font-size: 1.5em;
+  list-style: none;
+  color: hsl(0, 0%, 25%);
+  text-align: center;
+  margin: 0;
+}
+
+.list-items li:hover {
+  color: hsl(0, 0%, 45%);
+  cursor: pointer;
+}
